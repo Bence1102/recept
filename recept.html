@@ -12,19 +12,25 @@
         <article>
             <form>
                 <fieldset>
-                    <legend>Recept keresés</legend>
-                <p>Válasszon hozzávalót!</p>
+                    <legend>Recept feltöltés</legend>
+                <p>Hozzávalók:</p>
                 <div class="rec">
-                    <label for="barna">barna</label>    
-                    <input type="radio" name="szemszín" id="barna" br>
-                    <label for="kék">kék</label>
-                    <input type="radio" name="szemszín" id="kék" br>
-                    <label for="zöld">zöld</label>
-                    <input type="radio" name="szemszín" id="zöld" br>
+                    <div>
+                        <input type="checkbox" name="szemszín" id="barna">
+                        <label for="barna">barna</label>    
+                    </div>
+                    <div>
+                        <input type="checkbox" name="szemszín" id="kék">
+                        <label for="kék">kék</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="szemszín" id="zöld">
+                        <label for="zöld">zöld</label>
+                    </div>
                 </div>
 
                 <div>
-                    <p>Add meg a kedvenc ételle(id)et:</p>
+                    <p>Allergén hozzávalók::</p>
                     <label for="hal">Hal</label>
                     <input type="checkbox" name="etelek" id="hal">
                     <label for="hus">Hús</label>
