@@ -39,8 +39,23 @@ nav ul li a{
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
+    margin: auto;
 }
 
-ticle h2{
+article h2{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Allergenek{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Elkeszit h2{
+    font-size: 20px;
+}
+.Elkeszit{
+    
+
 }
