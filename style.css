@@ -1,0 +1,42 @@
+main{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(kepek/header.webp);
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+
+article img{
+    display: flex;
+    width: 800px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+article h2{
+    font-size: 30px;
+}

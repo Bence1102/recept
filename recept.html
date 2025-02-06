@@ -9,6 +9,13 @@
 </head>
 <body>
     <main>
+        <header>
+            <h1>Két Kanál Bisztró🥩</h1>
+            
+        </header>
+        <nav><ul>
+            <li><a href="index.html">Recept:</a></li>
+        </ul></nav>
         <article>
             <form>
                 <fieldset>
@@ -16,48 +23,76 @@
                 <p>Hozzávalók:</p>
                 <div class="rec">
                     <div>
-                        <input type="checkbox" name="szemszín" id="barna">
-                        <label for="barna">barna</label>    
+                        <input type="text" name="nev" id="nev">
                     </div>
                     <div>
-                        <input type="checkbox" name="szemszín" id="kék">
-                        <label for="kék">kék</label>
+                        <input type="text" name="nev" id="nev">
                     </div>
                     <div>
-                        <input type="checkbox" name="szemszín" id="zöld">
-                        <label for="zöld">zöld</label>
+                        <input type="text" name="nev" id="nev">
                     </div>
+                    <div>
+                        <input type="text" name="nev" id="nev">
+                    </div>
+                    <div>
+                        <input type="text" name="nev" id="nev">
+                    </div>
+                    <div>
+                        <input type="text" name="nev" id="nev">
+                    </div>
+                    <div>
+                        <input type="text" name="nev" id="nev">
+                    </div>
+                    <div>
+                        <input type="text" name="nev" id="nev">
+                    </div>
+                    <button type="submit">Elfogad</button>
                 </div>
 
                 <div>
-                    <p>Allergén hozzávalók::</p>
-                    <label for="hal">Hal</label>
-                    <input type="checkbox" name="etelek" id="hal">
-                    <label for="hus">Hús</label>
-                    <input type="checkbox" name="etelek" id="hus">
-                    <label for="zoldseg">Zöldség</label>
-                    <input type="checkbox" name="etelek" id="zoldseg">
+                    <p>Allergén hozzávalók:</p>
+                    <label for="Tojásmentes">Tojásmentes</label>
+                    <input type="checkbox" name="etelek" id="Tojásmentes">
+                    <label for="Laktózmentes">Laktózmentes</label>
+                    <input type="checkbox" name="etelek" id="Laktózmentes">
+                    <label for="Gluténmentes">Gluténmentes</label>
+                    <input type="checkbox" name="etelek" id="Gluténmentes">
+                    <label for="Cukormentes">Cukormentes</label>
+                    <input type="checkbox" name="etelek" id="Cukormentes">
+                    <label for="Tejmentes">Tejmentes</label>
+                    <input type="checkbox" name="etelek" id="Tejmentes">
+                </div>
+
+                    <button type="submit">Elfogad</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Recept Jellemzők</legend>
+                <div>
+                    <input type="radio" name="nehézségi fok" id="könnyű">
+                    <label for="könnyű">könnyű</label>    
+                </div>
+                <div>
+                    <input type="radio" name="nehézségi fok" id="közepes">
+                    <label for="közepes">közepes</label>
+                </div>
+                <div>
+                    <input type="radio" name="nehézségi fok" id="nehéz">
+                    <label for="nehéz">nehéz</label>
+                </div>
+                <button type="submit">Elfogad</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Idő</legend>
+                <div>
+                    <label for="">Elkészítési idő:</label>
+                    <input type="text" name="nev" id="nev" placeholder="perc">
                 </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Válasszon szakot!</legend>
-                <select name="szak" id="szak">
-                    <option value="Szoftverfejlesztő">Szoftverfejlesztő</option>
-                    <option value="Rendszergazda">Rendszergazda</option>
-                    <option value="Kőfaragó">Kőfaragó</option>
-                    <option value="Grafikus">Grafikus</option>
-                </select>
-                </fieldset>
-                <fieldset>
                     <legend>Irja meg a véleményét!</legend>
-                <p>Irja meg a véleményét!</p>
                 <textarea name="velemeny" id="velemeny"></textarea>
-                </fieldset>
-                
-                
-                
-                
                 <button type="sumbit"> Küldés</button>
+                </fieldset>
             </form>
         </article>
         <footer>
