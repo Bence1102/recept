@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Szente Bence</title>
+</head>
+<body>
+    <main>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Recept keresés</legend>
+                <p>Válasszon hozzávalót!</p>
+                <div class="rec">
+                    <label for="barna">barna</label>    
+                    <input type="radio" name="szemszín" id="barna" br>
+                    <label for="kék">kék</label>
+                    <input type="radio" name="szemszín" id="kék" br>
+                    <label for="zöld">zöld</label>
+                    <input type="radio" name="szemszín" id="zöld" br>
+                </div>
+
+                <div>
+                    <p>Add meg a kedvenc ételle(id)et:</p>
+                    <label for="hal">Hal</label>
+                    <input type="checkbox" name="etelek" id="hal">
+                    <label for="hus">Hús</label>
+                    <input type="checkbox" name="etelek" id="hus">
+                    <label for="zoldseg">Zöldség</label>
+                    <input type="checkbox" name="etelek" id="zoldseg">
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Válasszon szakot!</legend>
+                <select name="szak" id="szak">
+                    <option value="Szoftverfejlesztő">Szoftverfejlesztő</option>
+                    <option value="Rendszergazda">Rendszergazda</option>
+                    <option value="Kőfaragó">Kőfaragó</option>
+                    <option value="Grafikus">Grafikus</option>
+                </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Irja meg a véleményét!</legend>
+                <p>Irja meg a véleményét!</p>
+                <textarea name="velemeny" id="velemeny"></textarea>
+                </fieldset>
+                
+                
+                
+                
+                <button type="sumbit"> Küldés</button>
+            </form>
+        </article>
+        <footer>
+
+        </footer>
+    </main>
+</body>
+</html>
