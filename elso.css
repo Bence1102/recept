@@ -23,20 +23,24 @@ nav ul{
     
 }
 nav ul li a{
-    text-decoration: none;
     color: black;
     font-size: 30px;
 }
 
 
-article img{
+.kephozzavalo{
     display: flex;
-    width: 800px;
-    border: 1px solid grey;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kephozzavalo img{
+    width: 500px;
+    border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
-    justify-content: center;
 }
-article h2{
+
+ticle h2{
     font-size: 30px;
 }
