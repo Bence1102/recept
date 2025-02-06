@@ -1,0 +1,27 @@
+main{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(kepek/header.webp);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+article img{
+   width: 800px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   padding: 5px;
+}
