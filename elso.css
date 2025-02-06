@@ -17,6 +17,12 @@ nav{
     display: flex;
     justify-content: center;
 }
+nav ul{
+    text-decoration: none;
+
+}
+
+/*https://www.nosalty.hu/recept/paprikas-krumpli-kolbasszal*/
 
 
 article img{
