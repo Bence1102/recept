@@ -1,6 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 main{
     border: 1px solid grey;
     padding: 10px;
+    max-width: 1000px;
+    width: 80%;
+    
 }
 
 body{
@@ -13,19 +19,23 @@ header{
     justify-content: center;
     background-image: url(kepek/header.webp);
     font-size: 30px;
+    
 }
 nav{
     display: flex;
     justify-content: center;
+    border: 1px solid wheat;
 }
 nav ul{
     list-style: none;
     
 }
 nav ul li a{
+    border: 1px solid gray;
+    padding: 10px;
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -39,4 +49,11 @@ article img{
 }
 article h2{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Allergenek{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
