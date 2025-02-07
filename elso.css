@@ -20,23 +20,24 @@ header{
     font-size: 30px;
 }
 nav{
-    display: flex;
-    justify-content: center;
+    border: 1px solid wheat;
 }
 nav ul{
     list-style: none;
-    display: flex;
-    justify-content: center;
-    
 }
 nav ul li a{
-    color: black;
-    font-size: 30px;
     border: 1px solid gray;
     padding: 10px;
     text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
 
 .kephozzavalo{
     display: flex;
@@ -45,7 +46,9 @@ nav ul li a{
 }
 
 .kephozzavalo img{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
@@ -65,3 +68,22 @@ article h2{
 .Elkeszit h2{
     font-size: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+    body {
+      width: 100%;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Allergenek{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .kephozzavalo{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+  }
