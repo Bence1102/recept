@@ -22,12 +22,12 @@ header{
     
 }
 nav{
-    display: flex;
-    justify-content: center;
+    
     border: 1px solid wheat;
 }
 nav ul{
     list-style: none;
+    
     
 }
 nav ul li a{
@@ -37,6 +37,14 @@ nav ul li a{
     color: black;
     font-size: 20px;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 
 article img{
@@ -57,3 +65,18 @@ article h2{
     justify-content: space-around;
     align-items: center;
 }
+@media only screen and (max-width: 800px) {
+    body {
+      width: 100%;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Allergenek{
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    }
+  }
